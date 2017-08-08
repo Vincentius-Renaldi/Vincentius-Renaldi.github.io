@@ -10842,7 +10842,7 @@ $(document).ready(function () {
         updateLoadingProgress(0);
 
         if (access_token && (state == null || state !== storedState)) {
-            window.location = 'http://localhost:8080/';
+            window.location = 'https://vincentius-renaldi.github.io/index.html';
         } else {
             localStorage.removeItem(stateKey);
             if (access_token) {
@@ -10947,7 +10947,7 @@ $(document).ready(function () {
 
             $("#btnConnect").click(function (event) {
                 var client_id = 'd7689831cd2b47899e83fe465dd5d2fe';
-                var redirect_uri = 'http://localhost:8080/';
+                var redirect_uri = 'https://vincentius-renaldi.github.io/index.html';
                 var state = generateRandomString(16);
                 localStorage.setItem(stateKey, state);
                 var scope = 'playlist-read-private playlist-read-collaborative';
